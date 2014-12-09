@@ -1,0 +1,24 @@
+/**
+ * Created by WispProxy on 09.12.2014.
+ */
+
+@mixin map-container($map-width, $map-height) {
+  width:            $map-width;
+  height:           $map-height;
+}
+/**
+ * --------------------------------------------------------------------------
+ */
+body {
+  padding-top:      50px;
+  padding-bottom:   20px;
+}
+#map-container {
+  @include map-container(500px/2, 400px);
+}
+.form-signin {
+  max-width:        330px;
+}
+.btn-lg, .btn-group-lg > .btn {
+  padding:          7px 16px;
+}
